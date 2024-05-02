@@ -1,0 +1,29 @@
+.services {
+	color: white;
+	margin-top: 60px;
+}
+
+.texto {
+	text-align: center;
+	display: block;
+}
+
+.Cards {
+	display: block;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconContainer {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #3871ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

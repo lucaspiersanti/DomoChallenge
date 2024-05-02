@@ -1,0 +1,48 @@
+$danger: #9399a2;
+$warning: #ffffff;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+@font-face {
+	font-family: 'circularStd';
+	src: url('./fonts/CircularStd-Book.woff');
+}
+
+@font-face {
+	font-family: 'circularStd-Bold';
+	src: url('./fonts/Circular-Std-Bold.ttf');
+}
+
+body {
+	font-family: 'circularStd', arial, helvetica, sans-serif;
+	background-image: url('./assets/asset-background.jpg');
+	background-color: #283345;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'circularStd-Bold';
+	text-align: start;
+}
+
+p {
+	text-align: start;
+	font-size: 20px;
+}
+
+.hero {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.buttons {
+	display: flex;
+	align-items: start;
+	flex-wrap: nowrap;
+}
