@@ -1,0 +1,15 @@
+.technology {
+	display: flex;
+	align-items: center;
+	background-color: #3871ff;
+	position: relative;
+	margin-top: -50px;
+	padding-top: 70px;
+	/* z-index: -1; */
+	height: 70vh;
+}
+
+.icons {
+	color: white;
+	font-size: 100px;
+}

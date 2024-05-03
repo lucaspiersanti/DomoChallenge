@@ -19,13 +19,15 @@ const Header = ({ activeSection }) => {
 					id={`offcanvasNavbar-expand-${expand}`}
 					aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
 					placement='end'
-					style={{ backgroundColor: 'transparent' }}>
-					<Offcanvas.Header closeButton>
-						<Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-							Offcanvas
+					style={{ backgroundColor: 'transparent', borderStyle: 'none' }}>
+					<Offcanvas.Header>
+						<Offcanvas.Title
+							id={`offcanvasNavbarLabel-expand-${expand}`}
+							className='text-warning'>
+							compleet labs
 						</Offcanvas.Title>
 					</Offcanvas.Header>
-					<Offcanvas.Body>
+					<Offcanvas.Body className=''>
 						<Nav className='justify-content-end flex-grow-1 pe-3 text-danger'>
 							<Nav.Link
 								href='#action2'
